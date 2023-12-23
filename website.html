@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mywebsite</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" >
+    <style>
+
+
+*{
+font-family: 'Poppins', sans-serif;
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth ;
+}
+body{
+        background: url(images/image/backk.jpg)no-repeat;
+        background-size:cover;
+        background-position:center;
+        background-attachment: fixed;
+       }
+
+header{
+    background-color: rgb(147, 132, 112);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+.logo{
+text-decoration: none;
+color: rgb(128, 52, 52);
+text-transform: uppercase;
+font-weight: 700;
+font-size: 1.8em; 
+}
+.myclass a {
+  color: rgb(128, 52, 52);  
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 500;
+  padding-left: 30px;
+}
+.myclass a:hover{
+  color: rgb(31, 13, 13);
+}
+     section{
+        padding: 100px 200px;
+     }
+      .home{
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        background: url(images/image/nn.jpg)no-repeat;
+        background-size:cover;
+        background-position:center;
+        background-attachment: fixed;
+      }
+         .home h2{
+         font-size: 4em;
+         font-weight: 600;
+         color: black;
+         font-style: italic;
+         font-family:'Times New Roman', Times, serif;
+         }
+            .home h3{
+         letter-spacing: 1px;
+         margin-top: 10px;
+         margin-bottom: 10px;
+         }
+
+          .home .Projects {
+            color: black;
+           background-color: rgb(54, 30, 30);
+          text-decoration: none;
+          font-size: 1.1em;
+          font-weight: 600;
+          display: inline-block;
+          padding: 0.9375em  2.1875em;
+          letter-spacing: 1px;
+          border-radius: 15px;
+          margin-bottom: 50px;
+          transition: 0.7s ease;
+         }
+          .home .Projects:hover{
+            background-color: rgb(31, 13, 13);
+            transform: scale(1.1);}
+         .home .social a{
+          color: rgb(19, 19, 20);
+          font-size: 2em;
+         }
+         .aboutus{
+          margin-bottom:0%
+         }
+         .title-about{
+          font-size: 3em;
+         color: black;
+         font-family:'Times New Roman', Times, serif;
+         }
+         .info{
+          margin-top: 0px;
+          text-align: left;
+          display: flex;
+          justify-content: center;
+
+         }
+     
+       .title{
+        font-size: 1.3em;
+       }
+        .title span{
+          color: black;
+        }
+        .Bohemian{
+          text-decoration: underline;
+          text-transform:uppercase;
+          font-style: italic;
+        }
+        .classic{
+          text-decoration: underline;
+          text-transform:uppercase;
+          font-style: italic;
+        }
+        .new-class{
+          text-decoration: underline;
+          text-transform:uppercase;
+          font-style: italic;
+        }
+        .modern{
+          text-decoration: underline;
+          text-transform:uppercase;
+          font-style: italic;
+        }
+        
+        
+       .content{
+        float: left;
+       }
+       .contact{
+        text-align: left;
+        background-color: antiquewhite;
+        display: flex;
+        justify-content: space-between; 
+        align-items: center;
+        padding: 10px 200px;
+
+       }
+       .form{
+       text-align:right;
+       background-color: rgb(250, 250, 250);
+        
+        box-shadow: 0 5px 25px  rgba(1 1 1 /15%);
+        border-radius: 10px; 
+        margin-bottom: 100px;
+        margin: 15px;
+        justify-content: center;
+       }
+       .T{
+        text-align: center;
+        text-decoration: solid;
+        text-transform: uppercase;
+        font-size: 2em;
+        padding:0%
+       }
+       .footer{
+        background-color: rgb(158, 140, 115);
+        color: rgb(10, 10, 10);
+        padding: 2em;
+        display: flex;
+        justify-content: space-between;
+       }
+       .footer .social {
+        font-size: 1.3em;
+       } 
+
+       .footer .social a {
+        font-size: 1.3em;
+        color: black;
+       }
+     
+       .title-works{
+        display: flex;
+        justify-content: center;
+        font-size: 2.2em;
+        font-weight: 800;
+        margin-bottom: 100px;
+        text-transform: uppercase;
+       }
+       .styles {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+       }
+       .card {
+        background-color: antiquewhite;
+        
+        box-shadow: 0 5px 25px  rgba(1 1 1 /15%);
+        border-radius: 10px;
+        margin-bottom: 100px;
+        margin: 15px;
+        justify-content: center;
+        transition: 0.7s ease;
+       }
+       .card:hover{
+        transform: scale(1.1);
+       }
+        .Project{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-wrap: wrap;
+        }
+        .our-projects{
+        display: flex;
+        justify-content: center;
+        font-size: 2.2em;
+        font-weight: 800;
+        margin-bottom: 100px;
+        text-transform: uppercase;
+       }
+       
+       
+    </style>
+</head>
+<body>
+    <header>
+     <a href="#" class="logo">INTERIOR SOLUTION</a>
+     <div class="myclass">
+        <a href="#">Home</a>  
+        <a href="#aboutus">About us</a>
+        <a href="#styles">styles</a>
+        <a href="#contact">contact</a>
+     </div>
+   </header> 
+
+     <section class="home">
+      <div>
+       <h2>Modern design solution</h2>
+       <h3>elevate your space with our modern designs</h3>
+       <a href="#our-projects" class="Projects">Our Projects</a>
+       <div class="social">
+          <a href="#"  title="facebook"> 
+            <i class="fab fa-facebook-square" aria-hidden="true"></i>
+          </a>
+          <a href="#" title="twitter"> 
+            <i class="fab fa-twitter-square" aria-hidden="true"></i>
+          </a>
+          <a href="#" title="instagram">  
+            <i class="fab fa-instagram" aria-hidden="true"></i>
+          </a>
+         </div>
+         </div>
+  </section>
+
+  <section class="Aboutus"  id="aboutus">
+    <div >
+   <h1 class="title-about">Match with one of our  designs and get inspired</h1>
+   <h3>With 10 years of experience in all 50 states and 100,000+ designs, we'll help you hone your style, get inspired, and realize your design dreams for your specific space</h3>
+    </div>
+  </section>
+  <section class="info">
+    <div >
+   <ul>
+    <h2>Types of home decoration</h2>
+      <li> Bohemian style</li>
+      <li> classic style</li>
+      <li>New classic style</li>
+      <li> Modern style</li>
+   </ul>
+    <h2>How to choose types of interior decoration ? </h2>
+    <p>Choosing the interior design style or types of decoration depends on your personal taste in the first place, then the space of your home, and finally the allocated budget. This is what is studied during the interior design stage of your home. It is also one of the steps in designing your home’s decor yourself. We advice you before choosing the types of decoration to get to know about our website. It covers the basics of home decor and interior design elements, giving you a clear vision during selection
+      Also, choosing the style of decoration that you prefer must include choosing the appropriate lighting for it and coordinating its colors.</p>
+    </div>
+ </section>
+ 
+ <section class="works" id="styles">
+    <h2 class="title-works">types of decoration</h2>
+    <div class="styles">
+          <div class="card">
+          <div class="img">
+            <h2 class="Bohemian">Bohemian style</h2>
+            <img src="images/boh/WhatsApp Image 2023-11-26 at 19.41.59_8dfb6b08.jpg" width="30%" height="30%" >
+            <img src="images/boh/WhatsApp Image 2023-11-26 at 19.41.59_bd9d888e.jpg" width="30%" height="30%" >
+            <img src="images/boh/WhatsApp Image 2023-11-26 at 19.41.59_d3eeae56.jpg" width="30%" height="30%" >
+            <h4>Bohemian decor
+   
+              It is considered one of the most liberal and spontaneous types of decor, as there are no restrictions on colors or materials. It is taken from the Gypsy Bedouin heritage and nomadic tribes. It does not like empty spaces and tends towards the idea of furniture and furnishings embracing you due to the Large number of pieces. Its only rule is randomness and ta characterized Spaces be this 
+              
+              Space is reduced, as furniture and furnishings. occupy most of the space. The idea is to make the different pieces of furniture, accessories, and furnishings surround you from everywhere</h4>
+          </div>
+          <div class="card">
+            <div class="img">
+              <h2 class="classic">classic style</h2>
+              <img src="images/clas/WhatsApp Image 2023-11-26 at 23.48.02_43e40c3f.jpg" width="30%" height="30%" >
+              <img src="images/clas/WhatsApp Image 2023-11-26 at 23.48.02_b239616a.jpg" width="30%" height="30%" >
+              <img src="images/clas/WhatsApp Image 2023-11-26 at 23.48.02_c78edf17.jpg" width="30%" height="30%" >
+              <h4>Classic style in interior design is about timeless elegance and sophistication. It is a traditional technique that has been used for centuries, and is still popular today. Classic-style interiors feature furniture pieces with elegant lines and classic materials such as wood and marble</h4>
+            </div>
+            <div class="card">
+              <div class="img">
+                <h2 class="new-class">New Classic</h2>
+                <img src="images/new/WhatsApp Image 2023-11-27 at 00.10.09_3c0a4863.jpg" width="30%" height="30%" >
+                <img src="images/new/WhatsApp Image 2023-11-27 at 00.10.09_9b1fad93.jpg" width="30%" height="30%" >
+                <img src="images/new/WhatsApp Image 2023-11-27 at 00.10.09_b2524192.jpg" width="30%" height="30%" >
+                <h4>New classical or transitional decor is considered the gateway from the traditional classical style to the contemporary style. It was developed by lovers of the classics who aspire to modernity and contemporaneity. It is one of the most important types of decor preferred by the wealthy. It represents an extension of palace decor throughout history and is characterized by a sophisticated, sophisticated style rich in details. It distinguishes neoclassical decor. The golden color, engravings, many details, and fine craftsmanship, which raises the material cost of each piece.
+   
+                  Some changes were added to the classic decor to make it new, more modern and developed while maintaining the balance typical of the classic until it became one of the most sought-after types of decor. Through materials, furnishings and furniture, the design can be controlled so that it is more modern. Neoclassicism is achieved through Integrating modern furniture with classic accessories or statues and paintings, and the windows are classic and the curtains are closer to modern.</h4>
+              </div>
+              <div class="card">
+                <div class="img">
+                  <h2 class="modern">Modern</h2>
+                  <img src="images/modern/WhatsApp Image 2023-11-27 at 00.23.09_16d1861a.jpg" width="30%" height="30%" >
+                  <img src="images/modern/WhatsApp Image 2023-11-27 at 00.23.09_48ee61cf.jpg" width="30%" height="30%" >
+                  <img src="images/modern/WhatsApp Image 2023-11-27 at 00.23.09_cc4aeaa3.jpg" width="30%" height="30%" >
+                  <h4>It appeared at the beginning of the twentieth century, and modern decor is considered one of the most widespread types of decor and desired by many due to its modernity, modernity, and variety of colors and shapes</h4>
+                </div>
+      </div>
+    </div>
+  </section>
+
+  <section  class="project">
+      <h2 class="our-projects"> Our Projects</h2>
+    <div class="card" id="our-projects">
+      <img src="images/image/nnnn.jpg" width="30%" height="30%" >
+      <img src="images/image/n.jpg" width="30%" height="30%" >
+      <img src="images/image/eee.jpg" width="30%" height="30%" >
+      <img src="images/image/bb.jpg" width="30%" height="30%" >
+      <img src="images/image/nn.jpg" width="30%" height="30%" >
+      <img src="images/image/e.jpg" width="30%" height="30%" >
+    </div>
+  </section>
+ 
+   <section class="contact"  id="contact">
+    <div class="space">
+    <h1 class="T">contact Us</h1>
+    <h1 class="title">let's work together</h1>
+    <div class="content">
+      <div class="card">
+         <div class="icon">
+          <i class="fas fa-phone"></i>
+          </div>
+          <div class="info">
+           <h3>Phone</h3>
+           <p>+20112233441</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="icon">
+           <i class="fas fa-envelope"></i>
+            </div>
+          <div class="info">
+            <h3>Email</h3>
+            <p>nadanasser@gmail</p>
+            </div>
+          </div>
+      </div>
+    </div>
+<form action="" method="get" class="myform">
+  <div class="form">
+  <h2>Message Us:</h2>
+<label for="tb1"> first name </label>
+<input id="tb1" type="text" name="first name" maxlength="30" placeholder="Enter your first name" required>
+<br>
+<label for="tb2"> last name </label>
+<input id="tb2" type="text" name="last name" maxlength="30" placeholder="Enter your last name" required>
+<br>
+<label for="m1"> Male </label>
+<input id="m1" type="radio" name="gender" value="male">
+<label for="f1"> Female </label>
+<input id="f1" type="radio" name="gender" value="female">
+<br>
+<label for="tb3"> Email </label>
+<input id="tb3" type="email" name="mail" placeholder="Enter your email" required>
+<br>
+<label for="tb4"> Message </label>
+<input id="tb4" type="text" required placeholder="Enter your message">
+<br>
+<button type="submit" onclick="mess()"> Send Now</button>>
+  </div>
+</form>
+  </section>
+
+ <footer class="footer">
+    <p class="title">copyrights@<span>interiordesign</span></p>
+    <div class="social">
+     <a href="#"  title="facebook"> 
+        <i class="fab fa-facebook-square" aria-hidden="true"></i>
+     </a>
+     <a href="#" title="twitter"> 
+        <i class="fab fa-twitter-square" aria-hidden="true"></i>
+     </a>
+      <a href="#" title="instagram">  
+        <i class="fab fa-instagram" aria-hidden="true"></i>
+      </a>
+   </div>
+ </footer>
+ <script>
+  let userName = prompt("Enter your name:");
+if (userName !== null && userName !== "") {
+    console.log("Hello, " + userName + "! Welcome!");
+} else {
+    console.log("Hello! Please enter your name.");
+}
+ </script>
+ <script src="script/script.js"></script>
+</body>
+</html>

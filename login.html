@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <style>
+       body{
+           background-color: rgb(151, 113, 113);
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             height: 100vh;
+             background-image: url(images/image/WhatsApp\ Image\ 2023-12-21\ at\ 21.52.03_993bd221.jpg);
+            
+      }
+
+       form{
+        text-align:right;
+       background-color: rgb(170, 165, 165);
+        
+        box-shadow: 0 5px 25px  rgba(1 1 1 /15%);
+        border-radius: 10px;
+         padding: 10%;
+        margin: 15px;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #ccc;
+        justify-items: center;
+       
+       }
+       h1{
+        text-align: center;
+        margin-bottom: 40px;
+       
+       }
+      input{
+        border-radius: 8px;
+        box-shadow: 0 5px 25px  rgba(1 1 1 /15%);
+        height: 100%;
+      }
+       button{
+        border-radius: 8px;
+        box-shadow: 0 5px 25px  rgba(1 1 1 /15%);  
+       }
+       label{
+        text-shadow: 10px;
+        text-align: center;
+         text-transform: capitalize;
+       }
+          
+    </style>
+</head>
+<body>
+   
+    <form action="index.php" method="post">
+      <h1>login</h1>
+      <label for="tb1"> first name: </label>
+      <input id="tb1" type="text" name="fname" maxlength="30" placeholder="Enter your first name" required>
+      <br>
+      <label for="tb2"> second name: </label>
+      <input id="tb2" type="text" name=" sname" maxlength="30" placeholder="Enter your second name" required>
+      <br>
+      <label for="tb3">address: </label>
+      <input id="tb3" type="text" name="address" placeholder="Enter your address" required>
+      <br>
+      <label for="tb4"> phone: </label>
+      <input id="tb4" type="text"  name="phone" placeholder="Enter your phone">
+      <br>
+      <button type="submit" name="btnsend"> Send Now</button>>
+    </form>
+
+
+</body>
+</html>
